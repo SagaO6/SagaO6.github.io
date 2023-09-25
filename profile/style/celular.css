@@ -1,0 +1,103 @@
+@media screen and (max-width: 480px) {
+
+    .apresentacao {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .left img {
+
+        width: 100%;
+        margin-bottom: 24px;
+
+    }
+
+
+    .right h2 {
+
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    /* .right img{
+
+        width: 200px;
+      
+
+    } */
+
+    .containersobreMim {
+        flex-direction: column;
+    }
+
+    .containersobreMim .left{
+
+        width: 50%;
+        margin-left: auto;
+
+    }
+
+    .containersobreMim .right {
+
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .containerservicos{
+
+        flex-direction: column;
+
+    }
+
+    .containerservicos h1{
+
+        font-size: 16px;
+
+    }
+
+    .itemServico1
+    .itemServico2
+    .itemServico3
+    .itemServico4
+    .itemServico5
+    .itemServico6
+    .itemServico7
+    .itemServico8{
+
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .servicos h3{
+
+        font-size: 16px;
+
+    }
+
+    .displayContato {
+
+        flex-direction: column;
+
+    }
+
+    textarea{
+
+        width: 200px;
+
+    }
+
+    .Mapa{
+
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+    
+}
