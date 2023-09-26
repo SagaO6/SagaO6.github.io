@@ -178,10 +178,8 @@ h4 {
 
 }
 
-.itemServico1,
-.itemServico3,
-.itemServico6,
-.itemServico8 {
+.itemServico 
+{
 
     border: 1px solid purple;
     border-radius: 20px;
@@ -189,35 +187,10 @@ h4 {
     padding: 40px 20px;
     text-align: center;
     width: 30%;
+
 }
 
-.itemServico2,
-.itemServico4,
-.itemServico5,
-.itemServico7 {
-
-    border: 1px solid blue;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 40px 20px;
-    text-align: center;
-    width: 30%;
-}
-
-.itemServico1:hover,
-.itemServico3:hover,
-.itemServico6:hover,
-.itemServico8:hover {
-
-    border: 1px solid rgb(22, 2, 34);
-    background: rgb(146, 104, 155);
-    cursor: pointer;
-}
-
-.itemServico2:hover,
-.itemServico4:hover,
-.itemServico5:hover,
-.itemServico7:hover {
+.itemServico:hover {
 
     border: 1px solid rgb(14, 14, 94);
     background: rgba(50, 64, 145, 0.856);
