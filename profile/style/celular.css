@@ -15,7 +15,7 @@
 
     }
 
-    .left h4{
+    .left h4 {
 
         text-align: center;
 
@@ -29,10 +29,10 @@
 
     }
 
-     .right img{
+    .right img {
 
-       padding-top: 20px;
-      
+        padding-top: 20px;
+
 
     }
 
@@ -40,7 +40,7 @@
         flex-direction: column;
     }
 
-    .containersobreMim .left{
+    .containersobreMim .left {
 
         width: 95%;
         margin-left: auto;
@@ -55,20 +55,134 @@
 
     }
 
-    .containerservicos{
+    .containerservicos {
 
         flex-direction: column;
         width: 900px;
 
     }
 
-    .containerservicos h1{
+    .containerservicos h1 {
 
         font-size: 16px;
 
     }
 
-    .servicos h3{
+    .servicos h3 {
+
+        font-size: 16px;
+
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .displayContato {
+
+        flex-direction: column;
+
+    }
+
+    .Mensagem {
+        margin-left: 0px;
+        width: 80%;
+
+    }
+
+    .dados {
+
+        width: 80%;
+
+    }
+
+    textarea,
+    input {
+
+        width: 100%;
+
+    }
+
+    .Mapa iframe {
+
+        width: 100%;
+        height: auto;
+
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .apresentacao {
+
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .left img {
+
+        width: 200%;
+        margin-bottom: 24px;
+
+    }
+
+    .left h4 {
+
+        text-align: center;
+
+    }
+
+
+    .right h2 {
+
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .right img {
+
+        padding-top: 20px;
+
+    }
+
+    .containersobreMim {
+        flex-direction: column;
+    }
+
+    .containersobreMim .left {
+
+        width: 95%;
+        margin-left: auto;
+
+    }
+
+    .containersobreMim .right {
+
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .containerservicos {
+
+        flex-direction: column;
+        width: 900px;
+
+    }
+
+    .containerservicos h1 {
+
+        font-size: 16px;
+
+    }
+
+    .servicos h3 {
 
         font-size: 16px;
 
@@ -80,23 +194,25 @@
 
     }
 
-    .Mensagem{
+    .Mensagem {
 
-        text-align: left;
-
-    }
-
-    #mensagem{
-
-        width: 250px;
-
-    }
-
-    .Mapa{
 
         margin-left: 0px;
-        margin-top: 50px;
 
     }
-    
+
+    textarea,
+    input {
+
+        width: 100%;
+
+    }
+
+    .Mapa iframe {
+
+        width: 100%;
+        height: auto;
+
+    }
+
 }

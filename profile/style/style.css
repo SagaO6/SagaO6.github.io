@@ -24,11 +24,6 @@ Utilizar o site: https://cssgradient.io/
 
 }
 
-body{
-
-    background: rgb(8, 7, 7);
-
-}
 
 html {
 
@@ -174,7 +169,7 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 50px;
-    margin-top: -8px;
+    margin-top: -10px;
 
 }
 
@@ -198,7 +193,7 @@ h4 {
 
 }
 
-.itemServico6 h1 {
+.itemServico h1 {
 
     margin-top: 25px;
 
@@ -282,6 +277,15 @@ textarea {
 
 margin-top: 20px;
 margin-left: 60px;
+
+}
+
+form{
+
+font-size: 18px;
+max-width: 90%;
+padding-left: 50px;
+padding-bottom: 30px;
 
 }
 
@@ -375,4 +379,3 @@ margin-right: 50px;
     
     text-align: center;
 }
-
