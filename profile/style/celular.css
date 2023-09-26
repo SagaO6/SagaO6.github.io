@@ -58,13 +58,18 @@
     .containerservicos{
 
         flex-direction: column;
-        width: 900px;
 
     }
 
     .containerservicos h1{
 
         font-size: 16px;
+
+    }
+
+    #itemServico{
+
+        width: 75%;
 
     }
 
